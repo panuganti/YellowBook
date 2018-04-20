@@ -1,0 +1,42 @@
+page-home {
+    .gmap {
+        width: 0%;
+        height: 100%;
+        float:left;
+        overflow: scroll;
+    }
+    #content, html, body {
+        height: 99%;
+    }
+    #left {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    #search {
+        position:absolute;
+        left:10px;
+        top:10px;
+        width: 18%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #search-results {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+    #signIn {
+        position:absolute;
+        right:2px;
+        top:10px;
+    }
+    .transparent {
+        background-color: transparent;
+        border: 1 px solid;
+    }
+    .noborder {
+        border: 1px;
+        margin: 0px;
+    }
+
+}

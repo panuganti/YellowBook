@@ -1,0 +1,14 @@
+search-results {
+    #search-results-div {
+        overflow: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .header {
+        background-color: #aa298f;
+        padding: 7px 12px 12px;
+    }
+    .content {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 7px 12px 12px;
+    }
+}
